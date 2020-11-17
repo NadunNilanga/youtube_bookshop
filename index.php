@@ -8,7 +8,7 @@
     <style>
         body {
 
-            background-image: url(assets/img/book_shop.jpg);
+            background-image: url(Assets/img/book_shop.jpg);
         }
     </style>
 

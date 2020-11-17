@@ -44,7 +44,7 @@
 
                             <div calss="my-4">
                                 <!-- button-->
-                                <button id="btnLogin" class="btn btn-danger btn-block text-uppercase">Login</button>
+                                <button id="btnLogin" type="button" class="btn btn-danger btn-block text-uppercase">Login</button>
                             </div>
                             <!--end of button-->
 
@@ -81,36 +81,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-
-    <script>
-        //btnLogin Click
-        $('#btnLogin').click(
-            function() {
-                inputValidation();
-            });
-        //end btnLogin Click
-
-
-        //input validation
-        function inputValidation(callback) {
-
-            //txtUserName Validation
-            if ($('#txtUserName').val().length === 0) {
-                alert('Username cannot be empty');
-                return false;
-            }
-            //end txtUserName Validation
-
-
-            //txtPassword Validation
-            if ($('#txtPassword').val().length === 0) {
-                alert('Password cannot be empty');
-                return false;
-            }
-            //end txtPassword Validation
-
-        } //end input validation
-    </script>
+    <script src="View/Login/Login.js"> </script>
 
 </body>
 

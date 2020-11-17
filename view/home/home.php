@@ -191,7 +191,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <!-- clock -->
                         <div class="col-sm-3 text-right">
                             <canvas id="canvas" width="160" height="160"> </canvas>
-                            <h1 class="m-0 text-dark"> <span class="nav-link text-info" id="displayDateTime">2020-11-18 </span></h1>
+                            <strong><span class="nav-link text-info" id="displayDateTime" style="font-size: 180%;">2020-11-18 </span></strong>
                         </div><!-- /.col clock-->
                     </div><!-- /.row -->
                 </div><!-- /.container-fluid -->
@@ -208,7 +208,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <footer class="main-footer">
             <!-- To the right -->
             <div class="float-right d-none d-sm-inline">
-                Anything you want
+                <strong> <a href="https://www.youtube.com/c/NadunNilanga">NadunNilanga</a></strong>
             </div>
             <!-- Default to the left -->
             <strong>Copyright &copy; 2014-2019 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
